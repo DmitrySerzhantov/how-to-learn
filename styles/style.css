@@ -248,7 +248,6 @@
 }
 
 .section-subtitle_theme_dark {
-  margin: 0;
   padding: 0;
   margin: 20px 0 0 0;
 }
@@ -317,15 +316,12 @@
 }
 
 .footer__column-link {
-  margin-bottom: 16px;
-}
-
-.footer__column-link {
   text-decoration: none;
   color: white;
   display: block;
   line-height: 30px;
   font-size: 18px;
+  margin-bottom: 16px;
 }
 
 .footer__social-icon {
