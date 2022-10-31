@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: row;
   position: relative;
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
@@ -158,6 +158,9 @@
 }
 
 .table {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -165,7 +168,7 @@
 }
 
 .table__cell {
-  width: 250px;
+  max-width: 250px;
   justify-content: space-around;
   margin-top: 60px;
   color: black;
@@ -183,13 +186,12 @@
   font-size: 18px;
 }
 
-
 .feynman {
   /*Третья секция из основной части*/
   background-image: url(../images/feynman.png);
   background-position: left bottom;
   background-repeat: no-repeat;
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
   min-height: 890px;
   position: relative;
 }
@@ -225,7 +227,7 @@
 }
 
 .kaufman {
-  background-color:  #1f1f1f;
+  background-color: #1f1f1f;
   color: white;
   position: relative;
   overflow: hidden;
@@ -253,25 +255,23 @@
 }
 
 .table_theme_dark {
-  margin: auto;
-  margin-bottom: 90px;
+  padding: 0;
+  margin: 0 auto 90px auto;
+  list-style-type: none;
 }
 
 .table__cell_theme_dark {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  width: 200px;
-  color:  rgb(248, 248, 248);
-  margin-right: 0;
+  max-width: 200px;
+  color: rgb(248, 248, 248);
   margin-top: 80px;
   z-index: 3;
 }
 
 .footer {
-  background-color:  #1f1f1f;
+  background-color: #1f1f1f;
   min-height: 350px;
-  position: relative;
+  padding: 60px 0 40px 0;
+  display: flex;
 }
 
 .footer__columns {
@@ -279,8 +279,7 @@
   justify-content: space-between;
   color: white;
   width: 90%;
-  margin: 0 auto 0px;
-  padding-top: 60px;
+  margin: 0 auto;
 }
 
 .footer__column_content_copyright {
@@ -302,29 +301,25 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+  white-space: nowrap;
+  padding-right: 10px;
 }
 
 .footer__column-links {
   margin-bottom: 16px;
 }
 
-.footer__social-icon_title {
-  margin: 0 0 20px 0;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: 600;
-}
-
 .footer__column-link {
   text-decoration: none;
   color: white;
   display: block;
-  line-height: 30px;
   font-size: 18px;
-  margin-bottom: 16px;
-}
+  line-height: 30px;
+  white-space: nowrap;
+ }
 
 .footer__social-icon {
+  max-width: 16px;
+  min-height: 16px;
   padding-right: 10px;
 }
-
