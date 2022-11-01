@@ -10,7 +10,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -172,7 +172,6 @@
   max-width: 250px;
   margin-top: 60px;
   color: black;
-
 }
 
 .table__heading {
@@ -236,7 +235,7 @@
 }
 
 .kaufman__triangle {
-  background: url('../images/kaufman-triangle.svg')top right no-repeat;
+  background: url("../images/kaufman-triangle.svg") top right no-repeat;
   background-size: contain;
   position: absolute;
   min-height: 877px;
@@ -274,6 +273,7 @@
   min-height: 350px;
   padding: 60px 0 40px 0;
   display: flex;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -318,7 +318,7 @@
   font-size: 18px;
   line-height: 30px;
   white-space: nowrap;
- }
+}
 
 .footer__social-icon {
   max-width: 16px;
