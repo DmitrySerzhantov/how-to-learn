@@ -1,0 +1,14 @@
+.header__subtitle {
+  /* подзаголовок к шапек*/
+  margin: 0;
+  padding: 0;
+  max-width: 389px;
+  align-self: flex-end;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 2;
+}

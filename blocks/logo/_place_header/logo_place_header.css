@@ -1,0 +1,6 @@
+.logo_place_header {
+  /* логотип шапки */
+  margin-top: 30px;
+  margin-left: 64px;
+  z-index: 2;
+}
