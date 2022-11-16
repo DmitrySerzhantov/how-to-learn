@@ -21,4 +21,4 @@ ___
 
 * Для вставки видео используется iframe.
 
-* В проекте есть index.html , index.css , README.md , директория blocks со стилями и файлы с картинками в директории images .
+* В проекте есть index.html , index.css, README.md, директория blocks со стилями и файлы с картинками в директории images .
